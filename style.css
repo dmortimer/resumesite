@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0
+}
+body,
+html {
+    width: 100%;
+    overflow-x: hidden
+}
+
+main {
+    background: #f5f5f5;
+    position: relative
+}
+.text-center {
+    text-align: center
+}
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url(../img/background-min.jpg) no-repeat;
+    background-size: cover;
+    transition: 1s opacity
+}
+.landingSection {
+    width: 100%;
+    height: 95vh;
+    color: #f5f5f5;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2
+}
+.worksection {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-flow: column;
+    background-color: blue
+}
+.landingSection h1 {
+    font-family: Comfortaa, cursive;
+    font-weight: 400;
+    font-size: 3.5em
+}
+.landingSection h2 {
+    font-family: Muli, sans-serif
+}
+
+.landingSection h2 {
+    font-size: 2em
+}
+.socialIcons1 {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+    align-items: center;
+    padding-top: 30px
+}
+
+.socialIcons1 a img {
+    height: 30px
+}
